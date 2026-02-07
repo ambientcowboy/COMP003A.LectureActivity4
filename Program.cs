@@ -6,6 +6,9 @@ class Program
     {
         int taskNumber = 1;
         bool isCorrect = false;
+        
+        //this loop displays/prints a message for task number inputs 1-5
+        
         while (taskNumber <= 5) ;
         {
             Console.WriteLine($"Task {taskNumber} completed");
