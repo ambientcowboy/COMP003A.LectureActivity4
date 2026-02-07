@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        int taskNumber = 1;
+        bool isCorrect = false;
+        while (taskNumber <= 5) ;
+        {
+            Console.WriteLine($"Task {taskNumber} completed");
+            taskNumber++;
+        }
     }
 }
