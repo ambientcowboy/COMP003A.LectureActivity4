@@ -29,5 +29,29 @@ class Program
         {
             Console.WriteLine($"Step {step}");
         }
+        
+        int number = 0;
+        while (number <= 6)
+        {
+            number++;
+            //continue is used to skip printing when variable number is equal to 4, skipping to the next iteration within loop body
+            if (number == 4)
+                continue;
+            //break is used to exit the loop when variable number is equal to 6. 
+            if (number == 6)
+                break;
+            Console.WriteLine($"Number {number}");
+            
+            /*
+            Which loop type was easiest for you to understand?
+               break and continue were the easiest for me to understand since the conditions are set separately while 
+               using the same variable.
+            Which loop required the most careful tracing?
+               The do-while loop required the most tracing, for myself.
+            How did comments help you understand your loops?
+                separating loops by comments was helpful to creat clear line and section breaks allowing me to build them out 
+                individually with ease.
+             */
+        }
     }
 }
